@@ -1,0 +1,17 @@
+.pytest_cache/
+*.pyc
+
+dist/
+build/
+docs/_build
+
+.eggs/
+spacedr.egg-info/
+*.egg
+
+.coverage
+
+.tox/
+
+TODO
+PROC
