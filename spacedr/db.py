@@ -82,6 +82,8 @@ class Card(Base):
                                 default=None)
     reviews_count: int = Column('reviews_count', Integer, nullable=False,
                                 default=0)
+    correct_count: int = Column('correct_count', Integer, nullable=False,
+                                default=0)
     last_correct: bool = Column('last_correct', Boolean, nullable=True,
                                 default=None)
     practiced: bool = Column('practiced', Boolean, nullable=False,

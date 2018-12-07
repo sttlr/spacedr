@@ -30,6 +30,7 @@ def update_card(card: Card, answer: Any) -> None:
     card.reviews_count += 1
 
     if answer in card.answers:
+        card.correct_count += 1
         level = card.level + 1
         card.last_correct = True
     else:
